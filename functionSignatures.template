@@ -1,0 +1,55 @@
+{
+   "_schemaVersion": "1.0.0",
+   "bookmark": {
+      "inputs": [
+         {
+            "name": "command",
+            "kind": "required",
+            "type": [
+               "char",
+               "choices={'closeall'}"
+            ]
+         }
+      ]
+   },
+   "bookmark": {
+      "inputs": [
+         {
+            "name": "command",
+            "kind": "required",
+            "type": [
+               "char",
+               "choices={'list'}"
+            ]
+         },
+         {
+            "name": "bkmark",
+            "kind": "required",
+            "type": [
+               "char",
+               "choices=BKMARKS_LIST"
+            ]
+         }
+      ]
+   },
+   "bookmark": {
+      "inputs": [
+         {
+            "name": "command",
+            "kind": "required",
+            "type": [
+               "char",
+               "choices={'save','restore','delete'}"
+            ]
+         },
+         {
+            "name": "bkmark",
+            "kind": "required",
+            "type": [
+               "char",
+               "choices=BOOKMARKS"
+            ]
+         }
+      ]
+   }
+}
