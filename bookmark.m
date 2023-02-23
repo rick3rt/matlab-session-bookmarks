@@ -71,6 +71,7 @@ function bookmark(command, bkmark)
             closeAllEditors(bkmark); % bkmark can be -y to force
         case 'help'
             help bookmark
+            bookmark list
         otherwise
             error('Unknown option... ');
     end
